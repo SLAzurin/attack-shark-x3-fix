@@ -7,6 +7,8 @@ Only install the mouse software `2._M600_Driver_V1.1.zip` and set your Key Respo
 - Your mouse can brick if you install these firmware packages onto a V2 Attack Shark x3.
 ```
 
+You can find out if your board is a V2 board if you can still move your mouse while holding `caps lock` without updating any firmware files.
+
 Run the updaters in this order:
 
 1. 1._M600_Upgrade_Tool.zip
