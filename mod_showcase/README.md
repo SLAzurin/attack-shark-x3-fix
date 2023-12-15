@@ -4,6 +4,11 @@ Hi everyone, this is a showcase of my personal Attack Shark X3 modded mouse.
 After [destroying my V1 mouse](../README.md#warning-battery-mod), I now own a V2 mouse as a replacement and interchanged a few parts.  
 It now weighs 44g and has a 2 tone color.
 
+Table of contents
+
+- [How I achieved 44g in weight](#how-i-achieved-44g-in-weight)
+- [How much did all of it cost?](#how-much-did-all-of-it-cost)
+
 Here is how it looks like:  
 <img style='max-height:300px' src='../img/modded.jpg' />
 
@@ -29,13 +34,16 @@ After these modifications, this is how the bottom housing looks like with the mo
 <img style='max-height:300px' src='../img/bothousing.jpg' />
 
 ## How much did all of it cost?
-Here is the cost breakdown for the costs rounded **<u>up</u>**, in USD.  
+
+Here is the cost breakdown for the costs rounded **<u>up</u>**, in USD.
+
 - V1 mouse $29
 - V2 mouse $11 (On sale with coupons and store coins)
 - Battery 2pcs for $10 (Unfortunately, low capacity batteries are not sold individually)
 - ESPTiger mouse skates $5
 
 Tools:
+
 - Wire cutters $3
 
 Total: $58 USD including tools (And I could have theoretically ended up with 2 mice with the same mods)
