@@ -1,5 +1,9 @@
 # Attack Shark x3 / Kysona M600 fixes
 
+Hello! I've created this repo to share my knowledge about the Attack Shark X3 mouse. I have no affiliation with either Attack Shark or Kysona, I am simply someone who bought the X3 mouse and would want to share information about it. Please be aware there are risks of bricking your mouse when attempting any firmware upgrades.
+
+A more detailed explanation about these firmware files will follow up once I have more time. 
+
 ## Firmware warning
 If your mouse has been manufactured after September 2023, or if your mouse motherboard is the V2 board, you do not need to perform any of these steps.  
 Only install the mouse software `2._M600_Driver_V1.1.zip` and set your Key Response Time to 4MS.  
