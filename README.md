@@ -1,7 +1,8 @@
 # Attack Shark x3 / Kysona M600 fixes
 
+## Disclaimer: <u>**I have no affiliation with either Attack Shark or Kysona**</u>, I am simply someone who bought the X3 mouse and would want to share information about it.  
+
 Hello! I've created this repo to share my knowledge about the Attack Shark X3 mouse.  
-<u>**I have no affiliation with either Attack Shark or Kysona**</u>, I am simply someone who bought the X3 mouse and would want to share information about it.  
 Please be aware there are risks of bricking your mouse when attempting any firmware upgrades.  
 You will <u>definitely</u> brick your mouse if you apply the firmware update on your V2 or newer X3 mouse.
 
