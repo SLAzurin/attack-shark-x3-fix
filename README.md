@@ -75,3 +75,7 @@ I learned about this the hard way `:(`
 
 https://shop.kysona.com/blogs/news/upgrade-kysona-m600-drive-to-enable-debounce-time-adjustment  
 https://shop.kysona.com/blogs/news/troubleshooting-bricked-kysona-m600-mice-two-essential-tools-for-recovery
+
+If you have any questions or comments to add, feel free to do so in this [post](https://github.com/SLAzurin/attack-shark-x3-fix/issues/2)
+
+
