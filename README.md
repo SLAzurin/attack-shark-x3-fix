@@ -10,12 +10,12 @@ You will <u>definitely</u> brick your mouse if you apply the firmware update on 
 
 ## Table of contents
 
-- [How to check/update if you have a V1, V1.1 or V2 mouse](#how-to-check-if-you-have-a-v1-v11-or-v2-mouse)
+- [How to check/update if you have a V1, V1.1 or V2 variant](#how-to-check-if-you-have-a-v1-v11-or-v2-variant)
 - [Firmware files usage guide](#firmware-files-usage-guide)
 - [Mods etc](#mods-etc)
 - [References](#references)
 
-## How to check if you have a V1, V1.1 or V2 mouse
+## How to check if you have a V1, V1.1 or V2 variant
 
 ### Instructions
 
@@ -29,10 +29,12 @@ First check if the Windows mouse software works.
     - If your mouse cursor stops moving while holding `caps lock`, you have a V1 or V1.1. Apply the fix with these 2 files:    
         - `M600-20231013-_driver_for_receiver.zip`
         - `M600_20231013-_driver_for_M600_Mouse.zip`
-    - If your mouse is still working during this movement, do not apply any firmware upgrade. You have a V2 mouse.
+    - If your mouse is still working during this movement, do not apply any firmware upgrade. You have a V2 variant.
         - **WARNING!** You will brick your device if you apply the firmware upgrades.
 
 Once you follow these instructions you will finish with a <u>fixed V1.1</u>, or an already working <u>V2</u> (or newer).
+
+If you have a V2 variant, you did not need to upgrade any firmware files. That is normal.
 
 Here is the motherboard difference V1 on the left, V2 on the right:  
 <img style='max-height: 400px' src='./img/v1v2diff.png'></img>
