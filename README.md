@@ -10,24 +10,29 @@ You will <u>definitely</u> brick your mouse if you apply the firmware update on 
 
 ## Table of contents
 
-- [How to check if you have a V1 or V2 mouse](#how-to-check-if-you-have-a-v1-or-v2-mouse)
+- [How to check/update if you have a V1, V1.1 or V2 mouse](#how-to-check-if-you-have-a-v1-v11-or-v2-mouse)
 - [Firmware files usage guide](#firmware-files-usage-guide)
-- [Firmware update order](#v1-only-firmware-update-order-do-not-run-these-on-v2-or-newer)
 - [Mods etc](#mods-etc)
 - [References](#references)
 
-## How to check if you have a V1 or V2 mouse
-
-If your mouse has been manufactured after September 2023, or if your mouse motherboard is the V2 board, you do not need to perform any firmware updates.  
-Only install the Windows software `2._M600_Driver_V1.1.zip` and set your Key Response Time to 4MS, and you are done!
-
-```diff
-- Your mouse can brick if you install these firmware packages onto a V2 Attack Shark x3.
-```
+## How to check if you have a V1, V1.1 or V2 mouse
 
 ### Instructions
 
-Hold `caps lock`, and without updating any firmware files, it means you either have a V1 mouse with updated firmware already, or you have a V2 or newer X3 model.
+First check if the Windows mouse software works.  
+1. Download and install `2._M600_Driver_V1.1.zip`. Check if your mouse is detected and change the click debounce time to 4ms.  
+    - If this does not work, you have V1 and should upgrade to V1.1 first with `1._M600_Upgrade_Tool.zip`.
+        - Once that is done, continue to step 2.  
+    - If this works, continue to step 2.  
+
+2. Hold `caps lock` while moving the mouse left and right.  
+    - If your mouse cursor stops moving while holding `caps lock`, you have a V1 or V1.1. Apply the fix with these 2 files:    
+        - `M600-20231013-_driver_for_receiver.zip`
+        - `M600_20231013-_driver_for_M600_Mouse.zip`
+    - If your mouse is still working during this movement, do not apply any firmware upgrade. You have a V2 mouse.
+        - **WARNING!** You will brick your device if you apply the firmware upgrades.
+
+Once you follow these instructions you will finish with a <u>fixed V1.1</u>, or an already working <u>V2</u> (or newer).
 
 Here is the motherboard difference V1 on the left, V2 on the right:  
 <img style='max-height: 400px' src='./img/v1v2diff.png'></img>
@@ -39,26 +44,12 @@ These firmware files only apply to the earlier V1 models manufactured before Sep
 
 | Filename                                   | File Type        | Compatibility           | Usage                                                                                                                  |
 | ------------------------------------------ | ---------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `1._M600_Upgrade_Tool.zip`                 | Firmware         | <u>**V1 Only**</u>      | Fixes jittery mouse sensor tracking                                                                                    |
+| `1._M600_Upgrade_Tool.zip`                 | Firmware         | <u>**V1 Only**</u>      | Fixes jittery mouse sensor tracking <u>(and upgrades to V1.1)</u>                                                                                    |
 | `2._M600_Driver_V1.1.zip`                  | Windows Software | V1, V2 and likely newer | Main mouse software which allows ajusting the mouse debounce time to as low as 4ms (lower is better)                   |
-| `M600-20231013-_driver_for_receiver.zip`   | Firmware         | <u>**V1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600_20231013-_driver_for_M600_Mouse.zip`) |
-| `M600_20231013-_driver_for_M600_Mouse.zip` | Firmware         | <u>**V1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600-20231013-_driver_for_receiver.zip`)   |
+| `M600-20231013-_driver_for_receiver.zip`   | Firmware         | <u>**V1.1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600_20231013-_driver_for_M600_Mouse.zip`) |
+| `M600_20231013-_driver_for_M600_Mouse.zip` | Firmware         | <u>**V1.1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600-20231013-_driver_for_receiver.zip`)   |
 
-See which order you should run these if you have a V1 mouse
-
-## <u>**V1 Only**</u> Firmware update order (DO NOT RUN THESE ON V2 OR NEWER!)
-
-```diff
-- WARNING! Only run these files once you know for sure your mouse is a V1 board,
-- AND if you are experiencing your mouse freezing when holding caps lock!
-```
-
-Run them in this order:
-
-1. `1._M600_Upgrade_Tool.zip`
-2. `2._M600_Driver_V1.1.zip`
-3. `M600-20231013-_driver_for_receiver.zip`
-4. `M600_20231013-_driver_for_M600_Mouse.zip`
+See [instructions](#instructions) to know how to use these files.
 
 ## Mods etc
 
