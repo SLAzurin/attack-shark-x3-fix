@@ -1,6 +1,6 @@
 # Attack Shark x3 / Kysona M600 fixes
 
-## Disclaimer: <u>**I have no affiliation with either Attack Shark or Kysona**</u>, I am simply someone who bought the X3 mouse and would want to share information about it.  
+## Disclaimer: <u>**I have no affiliation with either Attack Shark or Kysona**</u>, I am simply someone who bought the X3 mouse and would want to share information about it.
 
 Hello! I've created this repo to share my knowledge about the Attack Shark X3 mouse.  
 Please be aware there are risks of bricking your mouse when attempting any firmware upgrades.  
@@ -19,18 +19,20 @@ You will <u>definitely</u> brick your mouse if you apply the firmware update on 
 
 ### Instructions
 
-First check if the Windows mouse software works.  
-1. Download and install `2._M600_Driver_V1.1.zip`. Check if your mouse is detected and change the click debounce time to 4ms.  
-    - If this does not work, you have V1 and should upgrade to V1.1 first with `1._M600_Upgrade_Tool.zip`.
-        - Once that is done, continue to step 2.  
-    - If this works, continue to step 2.  
+First check if the Windows mouse software works.
 
-2. Hold `caps lock` while moving the mouse left and right.  
-    - If your mouse cursor stops moving while holding `caps lock`, you have a V1 or V1.1. Apply the fix with these 2 files:    
-        - `M600-20231013-_driver_for_receiver.zip`
-        - `M600_20231013-_driver_for_M600_Mouse.zip`
-    - If your mouse is still working during this movement, do not apply any firmware upgrade. You have a V2 variant.
-        - **WARNING!** You will brick your device if you apply the firmware upgrades.
+1. Download and install `Attack_SharkX3Mouse.exe`. Check if your mouse is detected and change the click debounce time to 4ms.
+
+   - If this does not work, you have V1 and should upgrade to V1.1 first with `1._M600_Upgrade_Tool.zip`.
+     - Once that is done, continue to step 2.
+   - If this works, continue to step 2.
+
+2. Hold `caps lock` while moving the mouse left and right.
+   - If your mouse cursor stops moving while holding `caps lock`, you have a V1 or V1.1. Apply the fix with these 2 files:
+     - `M600-20231013-_driver_for_receiver.zip`
+     - `M600_20231013-_driver_for_M600_Mouse.zip`
+   - If your mouse is still working during this movement, do not apply any firmware upgrade. You have a V2 variant.
+     - **WARNING!** You will brick your device if you apply the firmware upgrades.
 
 Once you follow these instructions you will finish with a <u>fixed V1.1</u>, or an already working <u>V2</u> (or newer).
 
@@ -46,10 +48,10 @@ These firmware files only apply to the earlier V1 models manufactured before Sep
 
 | Filename                                   | File Type        | Compatibility           | Usage                                                                                                                  |
 | ------------------------------------------ | ---------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `1._M600_Upgrade_Tool.zip`                 | Firmware         | <u>**V1 Only**</u>      | Fixes jittery mouse sensor tracking <u>(and upgrades to V1.1)</u>                                                                                    |
-| `2._M600_Driver_V1.1.zip`                  | Windows Software | V1, V2 and likely newer | Main mouse software which allows ajusting the mouse debounce time to as low as 4ms (lower is better)                   |
-| `M600-20231013-_driver_for_receiver.zip`   | Firmware         | <u>**V1.1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600_20231013-_driver_for_M600_Mouse.zip`) |
-| `M600_20231013-_driver_for_M600_Mouse.zip` | Firmware         | <u>**V1.1 Only**</u>      | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600-20231013-_driver_for_receiver.zip`)   |
+| `1._M600_Upgrade_Tool.zip`                 | Firmware         | <u>**V1 Only**</u>      | Fixes jittery mouse sensor tracking <u>(and upgrades to V1.1)</u>                                                      |
+| `Attack_SharkX3Mouse.exe`                  | Windows Software | V1, V2 and likely newer | Main mouse software which allows ajusting the mouse debounce time to as low as 4ms (lower is better)                   |
+| `M600-20231013-_driver_for_receiver.zip`   | Firmware         | <u>**V1.1 Only**</u>    | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600_20231013-_driver_for_M600_Mouse.zip`) |
+| `M600_20231013-_driver_for_M600_Mouse.zip` | Firmware         | <u>**V1.1 Only**</u>    | Fixes mouse freezing when holding `caps lock` (Must be used alongside with `M600-20231013-_driver_for_receiver.zip`)   |
 
 See [instructions](#instructions) to know how to use these files.
 
@@ -70,5 +72,3 @@ https://shop.kysona.com/blogs/news/upgrade-kysona-m600-drive-to-enable-debounce-
 https://shop.kysona.com/blogs/news/troubleshooting-bricked-kysona-m600-mice-two-essential-tools-for-recovery
 
 If you have any questions or comments to add, feel free to do so in this [post](https://github.com/SLAzurin/attack-shark-x3-fix/issues/2)
-
-
