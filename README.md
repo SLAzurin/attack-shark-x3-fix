@@ -36,7 +36,7 @@ First check if the Windows mouse software works.
 
 Once you follow these instructions you will finish with a <u>fixed V1.1</u>, or an already working <u>V2</u> (or newer).
 
-If you have a V2 variant, you did not need to upgrade any firmware files. That is normal.
+### <b style="color:red">If you have a V2 variant, you did not need to upgrade any firmware files. That is normal.</b>
 
 Here is the motherboard difference V1 on the left, V2 on the right:  
 <img style='max-height: 400px' src='./img/v1v2diff.png'></img>
